@@ -13,17 +13,17 @@ all .jpg and .png files go into an "Images" folder, and so on.
 
 Here are what the script should do step by step:
 
-    1. **Use** glob **to Find Files**:
+1. **Use** glob **to Find Files**:
 
-        - Use the glob module to find all files in the target directory with specific patterns (like .txt for text files).
+    - Use the glob module to find all files in the target directory with specific patterns (like .txt for text files).
 
-    2. **Create Folders Based on File Type:**
+2. **Create Folders Based on File Type:**
 
-        - For each file type, create a corresponding folder (e.g., "Text Files", "Images").
+    - For each file type, create a corresponding folder (e.g., "Text Files", "Images").
 
-    3. **Move Files to the Appropriate Folder:**
+3. **Move Files to the Appropriate Folder:**
 
-        - Move the files into the appropriate folder based on their extension using shutil.move().
+    - Move the files into the appropriate folder based on their extension using shutil.move().
 
 # Prerequisites
 
