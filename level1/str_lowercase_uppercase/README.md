@@ -18,6 +18,7 @@ $> The number of lowercase letters in the string is: 22
 # Prerequisites
 
 Required Libraries: sys
+
 Required Files: No additional files are required.
 
 # License
