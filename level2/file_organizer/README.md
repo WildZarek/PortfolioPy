@@ -27,7 +27,7 @@ Here are what the script should do step by step:
 
 # Prerequisites
 
-Required Libraries: glob
+Required Libraries: glob, os, shutil
 
 Required Files: No additional files are required.
 
