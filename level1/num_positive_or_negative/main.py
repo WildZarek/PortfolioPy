@@ -10,12 +10,12 @@ if __name__ == "__main__":
         try:
             input_value = sys.argv[1].replace(',', '.')
             number = float(input_value)
-            if number < 0:
-                result = "negative"
-            elif number == 0:
-                result = "zero"
-            else:
+            if number > 0:
                 result = "positive"
+            elif number < 0:
+                result = "negative"
+            else:
+                result = "zero"
             print(f"Input number: {sys.argv[1]}")
             print(f"The number is {result}.")
         except ValueError:
